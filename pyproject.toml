@@ -1,0 +1,20 @@
+
+[tool.poetry]
+name = "concorde"
+version = "0.0.1"
+description = "Breaking the sound barrier"
+authors = ["Latul"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "2.27.1"
+mutagen = "1.45.1"
+Pillow = "9.1.0"
+tidalapi = { git = "https://github.com/tamland/python-tidal", branch = "0.7.x" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
